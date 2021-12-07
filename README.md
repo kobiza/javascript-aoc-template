@@ -1,4 +1,4 @@
-# Solve Advent of Code with js on browser
+# Solve Advent of Code with JS in browser 
 
 ## Setup
 
