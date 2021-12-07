@@ -36,7 +36,12 @@ day01.runPart1Tests
 day01.runPart2Tests
 ```
 
-3. run part1
+3. run part1 with input
 ```
-day01.runPart2Tests
+day01.part1(day01.parsedInput)
+```
+
+4. run part2 with input
+```
+day01.part2(day01.parsedInput)
 ```
