@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "new": "mkdir -p ./src/solutions/day$DAY && cp -r ./_template/ ./src/solutions/day$DAY/",
+    "new": "mkdir -p ./src/solutions/day$DAY && cp -r ./_template/ ./src/solutions/day$DAY/ && node scripts/updateSolutionsMap.js",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "dependencies": {
